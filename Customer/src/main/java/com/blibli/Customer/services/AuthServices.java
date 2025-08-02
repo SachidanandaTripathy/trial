@@ -7,5 +7,5 @@ import com.blibli.Customer.entity.Customer;
 public interface AuthServices {
     Customer register(CustomerRegistrationDTO customerRegistrationDTO);
 
-    Customer login(AuthRequest authRequest);
+    String verify(AuthRequest authRequest);
 }
